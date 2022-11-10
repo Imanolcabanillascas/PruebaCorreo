@@ -8,17 +8,21 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" src="style.css">
     <title>Correo</title>
 </head>
 
-<body>
+<body style=" background: -webkit-radial-gradient(left, #0162f3, #242424, #242424);
+       
+        backdrop-filter: blur(100px);">
     <div class="container text-center">
         Enviar correo
     </div>
     <div class="container">
+
         <div class="row">
-            <div class="col"></div>
-            <div class="col">
+            <div class="col-2"></div>
+            <div class="col-8">
                 <form id="form">
                     <div class="form-group" class="field">
 
@@ -26,23 +30,27 @@
                             placeholder="Correo" name="email">
 
                     </div>
+                    <br>
                     <div class="form-group" class="field">
                         <input type="text" class="form-control" id="exampleInputPassword1" name="name"
                             placeholder="Nombre completo">
                     </div>
+                    <br>
                     <div class="form-group" class="field">
                         <input type="text" class="form-control" id="exampleInputPassword1" name="subject"
                             placeholder="Asunto">
                     </div>
+                    <br>
                     <div class="form-group" class="field">
                         <textarea class="form-control" id="exampleFormControlTextarea1" name="comments"
                             rows="3"></textarea>
                     </div>
+                    <br>
                     <input class="btn btn-primary" type="submit" id="submit-btn" value="Enviar">
                 </form>
 
             </div>
-            <div class="col">
+            <div class="col-2">
 
             </div>
         </div>
